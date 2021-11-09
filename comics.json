@@ -1,0 +1,9 @@
+{
+    "comics": [
+        {
+            "id": 1,
+            "name": "> Start",
+            "img": "./comics/comic1.png"
+        }
+    ]
+}
