@@ -61,7 +61,11 @@ app.get('/', (req, res) => {
     <p>You can also search for specific comics or inputs using their text/name, as follows:</p>
     <code>const url = "wetsocks.com/api/v1/inputQuery?search=wetsocks"</code>
     <br><br>
-    <code>const url = "wetsocks.com/api/v1/comicsQuery?search=Name"</code>`);
+    <code>const url = "wetsocks.com/api/v1/comicsQuery?search=Name"</code>
+    <p>As well as limit the number of seqarch results:</p>
+    <code>const url = "wetsocks.com/api/v1/comicsQuery?search=Name&limit=1"</code>
+    <br><br>
+    <code>const url = "wetsocks.com/api/v1/inputQuery?search=Text&limit=1</code>`);
 });
 app.get('/api/comics', (req, res) => {
     const newComics = comics.map((comic) => {
