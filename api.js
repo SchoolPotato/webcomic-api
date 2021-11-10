@@ -69,8 +69,8 @@ app.get('/', (req, res) => {
 });
 app.get('/api/comics', (req, res) => {
     const newComics = comics.map((comic) => {
-        const { id, name, img } = comic;
-        return { id, name, img }
+        const { id, name, img, text } = comic;
+        return { id, name, img, text }
     });
 
     res.json(newComics);

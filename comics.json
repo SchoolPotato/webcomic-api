@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "> Start",
-        "img": "https://raw.githubusercontent.com/SchoolPotato/webcomic-api/master/comics/comic1.png"
+        "img": "https://raw.githubusercontent.com/SchoolPotato/webcomic-api/master/comics/comic1.png",
+        "text": "You're standing in an unknown place. Your head hurts, and, more importantly, your socks are soaked. Your name is..."
     }
 ]
