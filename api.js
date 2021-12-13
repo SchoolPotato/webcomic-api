@@ -159,3 +159,5 @@ app.get('/api/v1/inputQuery', (req, res) => {
 app.listen(5000, () => {
     console.log('Listening on port 5000...');
 });
+
+let pass = "mongodb+srv://TruPotato:WGPrLoRlWTtu98Bt@task-manager-practice.2lkb4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
